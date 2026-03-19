@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart'; // Import de la page d'accueil
+import 'home_page.dart'; 
 
 void main() => runApp(const MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
         scaffoldBackgroundColor: const Color(0xFFF5F5F5),
-        // Tu peux ajouter Google Fonts ici si tu veux
+      
       ),
       home: const HomePage(),
     );
