@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+import 'home_page.dart'; // Import de la page d'accueil
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Jeu Accueil',
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+        scaffoldBackgroundColor: const Color(0xFFF5F5F5),
+        // Tu peux ajouter Google Fonts ici si tu veux
+      ),
+      home: const HomePage(),
+    );
+  }
+}
