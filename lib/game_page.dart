@@ -18,7 +18,7 @@ class _GamePageState extends State<GamePage> {
 
   final AudioPlayer player = AudioPlayer();
 
-  // Liste des images dans assets/
+  
   final List<String> images = [
     'assets/ANANAS.jpg',
     'assets/BANANE.jpg',
