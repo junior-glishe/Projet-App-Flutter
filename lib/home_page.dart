@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart'; // Import pour les SVG
-import 'game_page.dart'; // Import de la page de jeu
+import 'package:flutter_svg/flutter_svg.dart'; 
+import 'game_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -62,13 +62,13 @@ class HomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 48),
 
-                // Bouton avec navigation
+                
                 SizedBox(
                   width: double.infinity,
                   height: 52,
                   child: ElevatedButton(
                     onPressed: () {
-                      // Navigation vers GamePage
+                    
                       Navigator.push(
                         context,
                         MaterialPageRoute(
